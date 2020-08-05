@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://gitlab.com/devops-team4/grocery-api.git'
+        git 'https://github.com/voltagebots/jenkins.git'
       }
     }
     stage('Building image') {
